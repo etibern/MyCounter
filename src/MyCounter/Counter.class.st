@@ -58,5 +58,6 @@ Counter >> initialize [
 Counter >> printOn: aStream [
   
   super printOn: aStream.
-  aStream nextPutAll: ' with value : ' , count printString
+  aStream nextPutAll: ' with value : ' , count printString.
+  aStream cr
 ]
