@@ -47,6 +47,11 @@ Counter >> increment2 [
   count := count + 2
 ]
 
+{ #category : #operation }
+Counter >> increment5 [
+	count := count + 5
+]
+
 { #category : #accessing }
 Counter >> initialize [ 
   

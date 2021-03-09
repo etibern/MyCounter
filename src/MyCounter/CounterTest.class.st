@@ -44,6 +44,15 @@ CounterTest >> testIncrement [
 ]
 
 { #category : #tests }
+CounterTest >> testIncrement5 [
+  |c|
+  c := Counter new.
+  c count: 58.
+  c increment5.
+  self assert:  c count equals: 63
+]
+
+{ #category : #tests }
 CounterTest >> testInitialize [
 
   |c|
